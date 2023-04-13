@@ -1,0 +1,113 @@
+/* 
+colors
+
+фон #FFFFFF
+фон за фото #F5F4FA
+фон футера #2F303A
+accent blue #2196F3
+fon nav #ECECEC
+
+цвет минизаголовков #212121
+цвет параграфов #757575
+цвет почты футера color: rgba(255, 255, 255, 0.6);
+*/
+
+:root {
+    --primery-text-color:  #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --gray-back: #F5F4FA;
+    --white-back: #FFFFFF;
+}
+
+body {
+    color: var(--primery-text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+
+.logo {
+    color: #000000;
+}
+
+.logo-span {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--title-text-color);
+}
+.nav-link.carent,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+
+.contact-link {
+    color: var(--primery-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.section1-title {
+    color: var(--white-back);
+
+}
+
+.section1 {
+    background-color: #2F303A;
+
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.logo-footer {
+    color: var(--white-back);
+}
+
+.address-link {
+    color: var(--white-back);
+}
+
+.footer-contact-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.seaction-team {
+    background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+/* Портфолио */
+.button {
+    color: var(--white-back);
+    background-color: var(--accent-color);
+}
+
+.button-secondary{
+    color: var(--title-text-color);
+    background-color: var(--gray-back);
+}   
+
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--white-back);
+    background-color: var(--accent-color);
+}
+
+.list-paragraf {
+    color: var(--primery-text-color);
+}

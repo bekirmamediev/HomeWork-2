@@ -139,9 +139,8 @@ body {
 }
 
 .address-link {
-    /* color: var(--white-back); */
-    color: rgba(255, 255, 255, 0.6);
-
+    color: var(--white-back); 
+    
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -149,10 +148,15 @@ body {
     text-decoration: none;
 }
 
-.address-link:hover,
-.address-link:focus{
-    color: rgba(255, 255, 255, 1);
+.address-link.contact{
+    color: rgba(255, 255, 255, 0.6);
+
 }
+
+.contact:hover,
+.contact:focus{
+    color: rgba(255, 255, 255, 1);
+} */
 
 
 
